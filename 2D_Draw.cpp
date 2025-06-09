@@ -1161,7 +1161,7 @@ bool clipLineToCircle(double x1, double y1, double x2, double y2,
     double fx = x1 - circle.centerX;
     double fy = y1 - circle.centerY;
 
-    // Quadratic equation coefficients: at² + bt + c = 0
+    // Quadratic equation coefficients: atÂ² + bt + c = 0
     double a = dx * dx + dy * dy;
     double b = 2 * (fx * dx + fy * dy);
     double c = (fx * fx + fy * fy) - circle.radius * circle.radius;
